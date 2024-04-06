@@ -1,0 +1,27 @@
+/*o reset.css é responsavél por remover algumas configurações padrão do navegador, para depois no style.css definir
+de forma pessoal como iremos querer */
+
+/*seletor que altera todas as tags do css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box ;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+ul{
+    list-style: none;
+
+}
+
+img{
+    max-width: 100% ;
+}
+

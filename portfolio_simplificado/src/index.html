@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Ryller Fonseca - Desenvolvedor</title>
+    <!-- importando estilos através de uma biblioteca externa-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <!-- href para redirecionar ao inicio da pagina ao clicar em elementos do cabecalho, como a propria logo-->
+        <a href="#">
+            <!--h1 com as iniciais do nome, que serão atribuidos dentro da logo-->
+            <h1 class="logo">
+                RF
+            </h1>
+        </a>
+        <!-- nav é a tag de navegação, geralmente usada para criar menus -->
+        <nav class="menu">
+            <!--ul é a tag responsavel por criar listas desordenadas-->
+            <ul>
+                <!-- li é os itens presentes nas listas-->
+                <li>
+                    <!--ao cliclar no menu de meus projetos, será enviado para a secao Meus projeto, que foi evidenciada através do id-->
+                    <a href="#projetos"> Meus projetos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <section class="home">
+        <!-- criação de uma div para agrupar os elementos da home de forma mais facil-->
+        <div class="informacoes">
+            <h1> Olá! Sou Ryller Fonseca </h1>
+            <p>Um estudante de Engenharia da Computação na Universidade Federal de Sergipe</p>
+            <p>Em busca da primeira experiencia profissional como desenvolvedor, sempre estudando e aprendendo novas
+                tecnologias.</p>
+            <ul class="redes-sociais">
+                <!-- lista com linkedin, wpp, github e instagram, target blank para o link ser aberto em uma nova guia, tag i para usar as imagens importadas no head-->
+                <li>
+                    <a href="https://www.linkedin.com/in/ryller-fonseca-13164b223/" title="Ir para o Linkedin"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"> </i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://wa.me/5579988295643" title="Mensagem no Whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"> </i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/RyllerF" title="Acessar meu GitHub" target="_blank">
+                        <i class="fab fa-github"> </i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/ryller_/" title="Ir para o instagram" target="_blank">
+                        <i class="fab fa-instagram"> </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- div utilizada para a insercao da foto ao portifolio-->
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./imagens/foto-fundo.png" alt="Foto Ryller Portifolio">
+            </div>
+
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+
+        <h2 class="titulo"> Meus Projetos </h2>
+
+        <div class="container-projetos">
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./imagens/projeto-gta.png" alt="Projeto landing page GTA">
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./imagens/projeto-listagem-pokemon.png" alt="Projeto landing page Pokemons">
+                    <h3>Projeto 2</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./imagens/projeto-one-piece.png" alt="Projeto landing page One Piece">
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./imagens/projeto-x-men.png" alt="Projeto landing page X-Men">
+                    <h3>Projeto 4</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="#" target="_blank">
+                    <img src="http://via.placeholder.com/515x700" alt="Capa do projeto">
+                    <h3>Projeto 5</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="#" target="_blank">
+                    <img src="http://via.placeholder.com/515x700" alt="Capa do projeto">
+                    <h3>Projeto 6</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="#" target="_blank">
+                    <img src="http://via.placeholder.com/515x700" alt="Capa do projeto">
+                    <h3>Projeto 7</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="#" target="_blank">
+                    <img src="http://via.placeholder.com/515x700" alt="Capa do projeto">
+                    <h3>Projeto 8</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito utilizando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+
+                </a>
+            </div>
+
+
+
+        </div>
+
+        <button class="btn-mostrar-projetos"> Mostrar Mais</button>
+    </section>
+</body>
+
+</html>
